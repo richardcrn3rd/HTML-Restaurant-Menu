@@ -5,6 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <!-- Remember to link to your CSS file! -->
+    <title>Basic Table</title>
+        <style>
+          table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+          }
+
+          th,
+          td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+          }
+
+          th {
+            background-color: blue;
+          }
+        </style>
 </head>
 <body>
     <!-- MENU PAGE -->
@@ -14,15 +33,20 @@
         <!-- Your job is to make the menu items in each section below a proper table! -->
         <section>
 <div class="MENU">
-    <h1 span style="color: red;">DAILY MENU</h1>
+    <h1 span style="color: red;">MY MENU</h1>
 </div>
             <h2 span style="Color: blue;">Appetizers</h2>
-
-        Name Price
-        Chicken Satay $7.95
-        Fresh Rolls $6.95
-        
-        <h2 span style="Color: blue;">Lunch</h1>
+            <table>
+                <tr>
+                  <th>Name Price</th>
+                 </tr>
+                 <tr>
+                    <td>Chicken Satay Fresh Roll</td>
+                 </tr>
+                 <tr>
+                    <td>$7.95 $6.95</td>
+                 </tr>
+            <h2 span style="Color: blue;">Lunch</h1>
 
         Name Price
         Panang Curry $9.95
